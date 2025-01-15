@@ -32,6 +32,8 @@ public class HomePage {
         searchButton.click();
     }
 
+
+
     public void searchFor(String keyword, String category) {
         searchBox.sendKeys(keyword);
         selectOptionOnCategoryBox(category);

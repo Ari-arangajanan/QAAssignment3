@@ -13,6 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class BaseTest {
+
     protected static WebDriver driver;
     protected static ExtentReports extent;
     protected static ExtentTest test;

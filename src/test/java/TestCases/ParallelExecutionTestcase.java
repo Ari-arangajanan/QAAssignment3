@@ -7,15 +7,36 @@ import Pages.ProductPage;
 import Pages.SearchResultsPage;
 import Utils.ExcelHandler;
 import Utils.ScreenShots;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class SearchbyCategoryTestCase extends BaseTest {
+public class ParallelExecutionTestcase extends BaseTest {
+
+
+    HomePage homePage;
+    SearchResultsPage searchResultsPage = new SearchResultsPage(driver);
+    ProductPage productPage = new ProductPage(driver);
+    DressResultPage dressResultPage = new DressResultPage(driver);
+
+//    @BeforeTest
+//    public void setup() {
+//        setUpBrowser();
+//        homePage = new HomePage(driver);
+//    }
+    @Test
+    public void searchCameraTC(){
+        setUpBrowser();
+        homePage = new HomePage(driver);
+        homePage.typeOnSearchField("Camera");
+
+
+    }
 
     @Test
-    public void searchDressTC() throws InterruptedException {
-
-        // Read data
-
+    public void searchWatchTC() throws InterruptedException {
+//        setUpBrowser();
+//        homePage = new HomePage(driver);
+//        homePage.typeOnSearchField("Watch");
         HomePage homePage = new HomePage(driver);
         SearchResultsPage searchResultsPage = new SearchResultsPage(driver);
         ProductPage productPage = new ProductPage(driver);
@@ -29,15 +50,15 @@ public class SearchbyCategoryTestCase extends BaseTest {
         ExcelHandler excel = new ExcelHandler(excelFilePath, sheetName);
 
         // Read data
-        String dress = excel.getCellData(2, 1); // Row 1, Column 1
-        String dressCategory = excel.getCellData(3, 1); // Row 1, Column 1
+        String watch = excel.getCellData(2, 2); // Row 1, Column 1
+        String watchCategory = excel.getCellData(3, 2); // Row 1, Column 1
 
 
         // Step 1: Search for dress using category option
-        homePage.searchFor(dress, dressCategory);
+        homePage.searchFor(watch, watchCategory);
         dressResultPage.scroll(0, 200);
         Thread.sleep(3000);
-        dressResultPage.clickOnKneeLengthCheckBox();
+        dressResultPage.clickOnMenWatchCheckBox();
 
         Thread.sleep(5000);
 
@@ -47,9 +68,6 @@ public class SearchbyCategoryTestCase extends BaseTest {
         String screenshotPath1 = ScreenShots.takeScreenshot(driver, "SuccessfulSearch");
         test.pass("System Successfully searched the item and get the result").addScreenCaptureFromPath(screenshotPath1);
 
+
     }
-
-
-
 }
-

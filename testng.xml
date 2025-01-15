@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="methods" thread-count="3">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/User/Downloads/AssignmentThreeWithPOM/AssignmentThreeWithPOM/src/test/java/TestCases">
+<suite name="All Test Suite">
+    <test parallel="methods" thread-count="2" verbose="2" preserve-order="true" name="C:/Users/User/Documents/Automation/New folder/QAAssignment3/src/test">
         <classes>
-            <class name="TestCases.AddToCartTestcase">
-                <methods>
-                    <include name="addToCartCamera"/>
-                </methods>
-            </class>
-            <class name="TestCases.AddtoWatchlistTestcase">
-                <methods>
-                    <include name="addToWishliastCamera"/>
-                </methods>
-            </class>
 
-
-            <class name="TestCases.SearchbyCategoryTestCase">
+            <class name="TestCases.ParallelExecutionTestcase">
                 <methods>
-                    <include name="searchDressTC"/>
+                    <include name="searchCameraTC"/>
+                    <include name="searchWatchTC"/>
                 </methods>
             </class>
         </classes>

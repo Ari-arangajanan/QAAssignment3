@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da82dd6-35be-48c4-bf4e-29a11abe8bda" name="Changes" comment="initial project push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/ParallelExecutionTestcase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DressResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DressResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/SearchbyCategoryTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/SearchbyCategoryTestCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utils/ScreenShots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/ScreenShots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Testdata/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Testdata/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +46,9 @@
     &quot;accountId&quot;: &quot;678d088b-513b-495a-91a0-3f62fb56f987&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -40,21 +62,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.AddToCartTestcase.executor": "Run",
+    "TestNG.AddtoWatchlistTestcase.executor": "Run",
+    "TestNG.BuyItNowTestCase.executor": "Run",
+    "TestNG.C:/Users/User/Documents/Automation/New folder/QAAssignment3/testng.xml.executor": "Run",
+    "TestNG.EbaySearchWithWrongLocator.executor": "Run",
+    "TestNG.ParallelExecutionTestcase.searchCameraTC.executor": "Debug",
+    "TestNG.ParallelExecutionTestcase.searchWatchTC.executor": "Run",
+    "TestNG.SearchbyCategoryTestCase.executor": "Run",
     "TestNG.SearchbyCategoryTestCase.searchDressTC.executor": "Run",
+    "TestNG.SearchbyCategoryTestCase.searchWatchTC.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ariarangajanan/Documents/Ari/MIT/semister 04/MIT4201 QA/2022MIT002/QAAssignment3",
+    "last_opened_file_path": "C:/Users/User/Documents/Automation/New folder/QAAssignment3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SearchbyCategoryTestCase">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="QAAssignment3" />
       <method v="2">
@@ -66,7 +101,53 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
-    <configuration name="SearchbyCategoryTestCase.searchDressTC" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/User/Documents/Automation/New folder/QAAssignment3/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentThreeWithPOM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelExecutionTestcase.searchCameraTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentThreeWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.ParallelExecutionTestcase" />
+      <option name="METHOD_NAME" value="searchCameraTC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelExecutionTestcase.searchWatchTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentThreeWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.ParallelExecutionTestcase" />
+      <option name="METHOD_NAME" value="searchWatchTC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchbyCategoryTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AssignmentThreeWithPOM" />
       <extension name="coverage">
         <pattern>
@@ -76,7 +157,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
       <option name="MAIN_CLASS_NAME" value="TestCases.SearchbyCategoryTestCase" />
-      <option name="METHOD_NAME" value="searchDressTC" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchbyCategoryTestCase.searchWatchTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentThreeWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.SearchbyCategoryTestCase" />
+      <option name="METHOD_NAME" value="searchWatchTC" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,17 +184,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchbyCategoryTestCase.searchDressTC" />
+        <item itemvalue="TestNG.SearchbyCategoryTestCase" />
+        <item itemvalue="TestNG.C:/Users/User/Documents/Automation/New folder/QAAssignment3/testng.xml" />
+        <item itemvalue="TestNG.ParallelExecutionTestcase.searchWatchTC" />
+        <item itemvalue="TestNG.ParallelExecutionTestcase.searchCameraTC" />
+        <item itemvalue="TestNG.SearchbyCategoryTestCase.searchWatchTC" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -155,5 +249,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial project push" />
     <option name="LAST_COMMIT_MESSAGE" value="initial project push" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

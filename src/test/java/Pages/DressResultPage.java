@@ -11,6 +11,8 @@ public class DressResultPage extends BaseTest {
     WebDriver driver;
     @FindBy(xpath = "//span[text()='Knee Length' and @class]")
     WebElement kneeLengthCheckBox;
+    @FindBy(xpath = "//*[@id=\"x-refine__group_1__0\"]/ul/li[1]/div/a/div/span/input")
+    WebElement menWatchCheckBox;
 
     public DressResultPage(WebDriver driver) {
         this.driver = driver;
@@ -19,6 +21,9 @@ public class DressResultPage extends BaseTest {
 
     public void clickOnKneeLengthCheckBox(){
         kneeLengthCheckBox.click();
+    }
+    public void clickOnMenWatchCheckBox(){
+        menWatchCheckBox.click();
     }
 
     public void scroll(int x, int y){
