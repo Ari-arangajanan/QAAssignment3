@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da82dd6-35be-48c4-bf4e-29a11abe8bda" name="Changes" comment="initial project push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/ParallelExecutionTestcase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DressResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DressResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SearchResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/SearchbyCategoryTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/SearchbyCategoryTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/ScreenShots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/ScreenShots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Testdata/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Testdata/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testing.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,36 +48,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.AddToCartTestcase.executor": "Run",
-    "TestNG.AddtoWatchlistTestcase.executor": "Run",
-    "TestNG.BuyItNowTestCase.executor": "Run",
-    "TestNG.C:/Users/User/Documents/Automation/New folder/QAAssignment3/testng.xml.executor": "Run",
-    "TestNG.EbaySearchWithWrongLocator.executor": "Run",
-    "TestNG.ParallelExecutionTestcase.searchCameraTC.executor": "Debug",
-    "TestNG.ParallelExecutionTestcase.searchWatchTC.executor": "Run",
-    "TestNG.SearchbyCategoryTestCase.executor": "Run",
-    "TestNG.SearchbyCategoryTestCase.searchDressTC.executor": "Run",
-    "TestNG.SearchbyCategoryTestCase.searchWatchTC.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/Documents/Automation/New folder/QAAssignment3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.AddToCartTestcase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddtoWatchlistTestcase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BuyItNowTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/User/Documents/Automation/New folder/QAAssignment3/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EbaySearchWithWrongLocator.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ParallelExecutionTestcase.searchCameraTC.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.ParallelExecutionTestcase.searchWatchTC.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SearchbyCategoryTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SearchbyCategoryTestCase.searchDressTC.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SearchbyCategoryTestCase.searchWatchTC.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Documents/Automation/New folder/QAAssignment3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.SearchbyCategoryTestCase">
+}</component>
+  <component name="RunManager" selected="TestNG.AddToCartTestcase">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="QAAssignment3" />
       <method v="2">
@@ -100,6 +88,23 @@
       <module name="QAAssignment3" />
       <option name="filePath" />
       <method v="2" />
+    </configuration>
+    <configuration name="AddToCartTestcase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentThreeWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.AddToCartTestcase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="C:/Users/User/Documents/Automation/New folder/QAAssignment3/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AssignmentThreeWithPOM" />
@@ -164,31 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchbyCategoryTestCase.searchWatchTC" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AssignmentThreeWithPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.SearchbyCategoryTestCase" />
-      <option name="METHOD_NAME" value="searchWatchTC" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddToCartTestcase" />
         <item itemvalue="TestNG.SearchbyCategoryTestCase" />
         <item itemvalue="TestNG.C:/Users/User/Documents/Automation/New folder/QAAssignment3/testng.xml" />
         <item itemvalue="TestNG.ParallelExecutionTestcase.searchWatchTC" />
         <item itemvalue="TestNG.ParallelExecutionTestcase.searchCameraTC" />
-        <item itemvalue="TestNG.SearchbyCategoryTestCase.searchWatchTC" />
       </list>
     </recent_temporary>
   </component>

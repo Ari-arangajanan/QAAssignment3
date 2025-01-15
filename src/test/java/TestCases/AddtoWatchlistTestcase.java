@@ -31,10 +31,10 @@ public class AddtoWatchlistTestcase extends BaseTest {
         ExcelHandler excel = new ExcelHandler(excelFilePath, sheetName);
 
         // Read data
-        String mobileBrand = excel.getCellData(1, 1); // Row 1, Column 1
+        String camera = excel.getCellData(1, 1); // Row 1, Column 1
 
-        // Step 1: Search for Samsung phone
-        homePage.searchFor(mobileBrand);
+        // Step 1: Search for Camera
+        homePage.searchFor(camera);
         setReportName("Add To Watch list Scenario- Test Case 2");
         startTest("Add To Watch list Scenario- Test Case 2");
         test = extent.createTest("Successful Searched", "System Successfully searched the item and get the result");

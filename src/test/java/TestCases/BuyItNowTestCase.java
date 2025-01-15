@@ -30,10 +30,10 @@ public class BuyItNowTestCase extends BaseTest {
         ExcelHandler excel = new ExcelHandler(excelFilePath, sheetName);
 
         // Read data
-        String mobileBrand = excel.getCellData(1, 1); // Row 1, Column 1
+        String camera = excel.getCellData(1, 1); // Row 1, Column 1
 
-        // Step 1: Search for Samsung phone
-        homePage.searchFor(mobileBrand);
+        // Step 1: Search for Camera
+        homePage.searchFor(camera);
         setReportName("Buy It Now Scenario- Test Case 3");
         startTest("Buy It Now Scenario- Test Case 3");
         test = extent.createTest("Successful Searched", "System Successfully searched the item and get the result");
@@ -47,7 +47,7 @@ public class BuyItNowTestCase extends BaseTest {
         test.pass("System Successfully searched the item and select  the first result").addScreenCaptureFromPath(screenshotPath2);
 
         // Write data back to the Excel file
-        excel.setCellData(1, 2, "Samsung Selected", excelFilePath);
+        excel.setCellData(1, 2, "Camera Searched", excelFilePath);
 
         // Step 3: Proceed to Buy It Now
         productPage.buyItNow();

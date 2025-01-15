@@ -32,11 +32,11 @@ public class AddToCartTestcase extends BaseTest {
         ExcelHandler excel = new ExcelHandler(excelFilePath, sheetName);
 
         // Read data
-        String mobileBrand = excel.getCellData(1, 1); // Row 1, Column 1
+        String camera1 = excel.getCellData(1, 1); // Row 1, Column 1
 
 
-        // Step 1: Search for Samsung phone
-        homePage.searchFor(mobileBrand);
+        // Step 1: Search for Camera
+        homePage.searchFor(camera1);
         setReportName("Testcase 1- Add to cart");
         startTest("Testcase 1- Add to cart");
         test = extent.createTest("Serached successfully", "Successfully searched the item using the provided keyword");

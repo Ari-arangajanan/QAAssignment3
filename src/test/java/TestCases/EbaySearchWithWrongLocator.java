@@ -25,7 +25,7 @@ public class EbaySearchWithWrongLocator extends BaseTest {
         ExcelHandler excel = new ExcelHandler(excelFilePath, sheetName);
 
         // Read data
-        String Brand = excel.getCellData(1, 1); // Row 1, Column 0
+        String camera = excel.getCellData(1, 1); // Row 1, Column 0
 
 
         HomePage homePage = new HomePage(driver);
@@ -33,12 +33,12 @@ public class EbaySearchWithWrongLocator extends BaseTest {
         ProductPage productPage = new ProductPage(driver);
 
 
-        // Step 1: Search for Samsung phone
-        homePage.searchFor(Brand);
+        // Step 1: Search for Camera
+        homePage.searchFor(camera);
         setReportName("Wrong Locator Scenario- Test Case 4");
         startTest("Wrong Locator Scenario- Test Case 4");
         // Write data back to the Excel file
-        excel.setCellData(1, 2, "Samsung Selected", excelFilePath);
+        excel.setCellData(1, 2, "Camera Searched", excelFilePath);
 
         // Close workbook
         excel.closeWorkbook();
